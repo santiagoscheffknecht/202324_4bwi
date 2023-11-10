@@ -1,0 +1,52 @@
+body {
+    background-image: url("Wappen\13Österreichhintergrund.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 80%;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.item img {
+    width: 69px;
+    height: 69px;
+    border: none; 
+}
+
+.top{
+    display: flex;
+    background-color: #ED2939;
+    top: 0px;
+    height: 100px;
+    width: max-content;
+}
+.red-bar {
+    background-color: #ED2939;
+    height: 100px;
+    
+    justify-content: center;
+    color: white;
+    width: max-content;
+    height: 100px;
+    
+}
