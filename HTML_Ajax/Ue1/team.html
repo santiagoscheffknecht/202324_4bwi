@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SSBundesliga</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="script2.js" defer></script>
+        <style>
+            .margin33 {
+                margin-left: 33%;
+            }
+            .margin50{
+                margin-left: 50%;
+            }
+    
+            body {
+                background-image: url('Wappen/13Österreichhintergrund.png');
+                background-size: cover;
+            }
+            .infos {
+                position: relative;
+                
+                text-align: center;
+                font-size: 20px;
+                margin-right: 30px;
+                }
+                #backButton {
+                position: fixed;
+                top: 10px;
+                left: 10px;
+                padding: 10px;
+                background-color: #ED2939;
+                color: white;
+                border: none;
+                cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="text-xl bg-[#ED2939] h-28 flex justify-center items-center">
+                <h1 id="teamName">TeamName</h1>
+            </div>
+            <div class="infos">
+                <div id="backButton" onclick="goBack()">Zurück</div>
+                <div class="infos">
+                    <div id="1">Punkte: + points</div>
+                    <div id="2">Siege: won</div>
+                    <div id="3">Niederlage: lost</div>
+                    <div id="4">Unentschieden: draw</div>
+                    <div id="5">Tore: goals</div>
+                    <div id="6">Matches: matches</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
